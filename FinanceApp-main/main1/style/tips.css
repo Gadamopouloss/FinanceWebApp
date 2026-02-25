@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato' , sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(img.jpg) no-repeat center center / cover;
+}
+
+.navbar2 {
+    font-size: 24px;
+    position: fixed;
+    bottom: 20px;
+    right: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between 40px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.navbar2 a {
+    margin-right: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+
+/* telos katw*/
+.homelink{
+    font-size: 3em;
+    position: absolute;
+    color: aliceblue;
+    top: 15px;
+    
+    cursor: pointer;
+}
+
+.container {
+    width: 550px;
+    height: 450px;
+}
+
+.header {
+    font-size: 1.2rem;
+    border: solid 2px whitesmoke;
+    background-color: black;
+    color: azure;
+    padding: 15px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.main-content{
+    width: 100%;
+    height: 280px;
+    background-color: white;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+    border-radius: 15px;
+
+}
+
+.main-content .text-area{
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+.main-content .person {
+    font-size: 1.6em;
+    color: brown;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.button-area button{
+    background-color: black;
+    color: wheat;
+    font-size: 1.3em;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button-area button:active{
+    background-color: rgb(40, 39, 39);
+}
